@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HealthMate</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account_sign_in">Already have an Account? Sign In</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an Account? Sign Up</string>
+    <string name="welcome">Welcome to HealthMate</string>
+
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
