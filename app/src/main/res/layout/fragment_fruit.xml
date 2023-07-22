@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FruitFragment"
+    android:background="#FB8C00" >
+
+        <TextView
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="80dp"
+            android:text="Fruits and Vegetables Recommendations"
+            android:textColor="#0B0A0A"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="180dp"
+            android:text="Our AI suggests personalized fruits and veggies based on dietary preferences and nutritional needs. Make healthier choices and improve well-being."
+            android:textColor="#0E0D0D"
+            android:textSize="15dp"/>
+
+
+
+</FrameLayout>

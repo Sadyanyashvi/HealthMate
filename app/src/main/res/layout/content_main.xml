@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textColor="#151111"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:textSize="50dp"/>
+
+        <TextView
+            android:layout_margin="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The aim of this project is to develop a mobile application that allows users to easily manage their wine collection and keep track of their inventory. This application will be designed to help wine enthusiasts, collectors, and professionals to organize their wine collection and plan their purchases more efficiently. The app will feature a barcode scanner and wine database integration, personalized rating system, tasting notes, food pairing suggestions, search function, grouping feature, cellar management, Wishlist, social sharing, custom wine lists, wine auction integration and more."
+            android:textColor="#151313"
+            android:textSize="15dp"/>
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>
