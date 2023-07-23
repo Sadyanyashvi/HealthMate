@@ -3,19 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#43A047"
+    android:background="@drawable/caloriebg"
     tools:context=".CalorieFragment">
 
 
-
         <TextView
-            android:layout_width="176dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="120dp"
             android:layout_marginTop="80dp"
             android:text="Calorie Tracking"
             android:textColor="#0B0A0A"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <TextView
 
@@ -29,11 +29,12 @@
             android:textSize="15dp"/>
 
         <Button
+            android:id="@+id/calorie_cal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="110dp"
             android:layout_marginTop="280dp"
-            android:text="Calorie Calculator"/>
+            android:text="Calculate Calorie"/>
 
 
 

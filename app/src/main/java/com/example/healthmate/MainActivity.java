@@ -61,8 +61,8 @@ public class MainActivity extends AppCompatActivity {
                     loadFragment(new MealFragment());
 
                 }else if(id==R.id.optCalorie){
-//                    loadFragment(new CalorieFragment());
-                    startActivity(new Intent(getApplicationContext(), cal_recommendation.class));
+                    loadFragment(new CalorieFragment());
+//                    startActivity(new Intent(getApplicationContext(), cal_recommendation.class));
                 }
                 else if(id==R.id.optFitness){
                     loadFragment(new FitnessFragment());
@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity {
                     loadFragment(new WaterFragment());
                 }
                 else if(id==R.id.optFruits){
-//                    loadFragment(new FruitFragment());
-                    startActivity(new Intent(getApplicationContext(), food_calories.class));
+                    loadFragment(new FruitFragment());
+//                    startActivity(new Intent(getApplicationContext(), food_calories.class));
                 }
                 else
                     if(id==R.id.optLogout)

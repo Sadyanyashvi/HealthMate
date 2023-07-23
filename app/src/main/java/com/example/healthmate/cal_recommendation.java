@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class cal_recommendation extends AppCompatActivity {
     Button calc_btn;
     TextView a, b, c, d, e, f;
-    EditText p, q, r, s;
+    EditText p, q, r;
+    Spinner s;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

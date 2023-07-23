@@ -4,16 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FruitFragment"
-    android:background="#FB8C00" >
+    android:background="@drawable/fruittracking" >
 
         <TextView
-            android:layout_width="176dp"
+            android:layout_width="205dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="120dp"
+            android:layout_marginLeft="100dp"
             android:layout_marginTop="80dp"
             android:text="Fruits and Vegetables Recommendations"
             android:textColor="#0B0A0A"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <TextView
 
@@ -24,7 +25,16 @@
             android:layout_marginTop="180dp"
             android:text="Our AI suggests personalized fruits and veggies based on dietary preferences and nutritional needs. Make healthier choices and improve well-being."
             android:textColor="#0E0D0D"
+            android:textStyle="bold"
             android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/food_cal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="300dp"
+            android:text="Calculate Calorie"/>
 
 
 

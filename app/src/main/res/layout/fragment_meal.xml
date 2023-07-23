@@ -4,13 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MealFragment"
-    android:background="#1E88E5">
+    android:background="@drawable/mealbg">
 
         <TextView
             android:layout_width="176dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="120dp"
             android:layout_marginTop="80dp"
+            android:textStyle="bold"
             android:text="Meal Logging and Recommendations"
             android:textColor="#0B0A0A"
             android:textSize="20dp" />
@@ -25,6 +26,14 @@
             android:text="Users can log their meals and receive personalized meal recommendations based on their dietary preferences and health goals. The app provides users with a database of healthy recipes that are tailored to their nutritional needs."
             android:textColor="#0E0D0D"
             android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/meal_cal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="300dp"
+            android:text="Calculate Calorie"/>
 
 
 

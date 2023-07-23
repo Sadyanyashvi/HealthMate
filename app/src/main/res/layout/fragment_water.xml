@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".WaterFragment"
-    android:background="#C0CA33">
+    android:background="@drawable/watertraking">
 
         <TextView
             android:layout_width="176dp"
@@ -12,19 +12,30 @@
             android:layout_marginLeft="120dp"
             android:layout_marginTop="80dp"
             android:text="Water Tracking"
-            android:textColor="#0B0A0A"
-            android:textSize="20dp" />
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="25dp" />
 
         <TextView
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
-            android:layout_marginRight="80dp"
             android:layout_marginTop="150dp"
+            android:layout_marginRight="80dp"
             android:text="HealthMate helps users track their daily water intake and provides personalized recommendations for staying hydrated."
-            android:textColor="#0E0D0D"
-            android:textSize="15dp"/>
+            android:textColor="#fff"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/water_cal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="280dp"
+         android:backgroundTint="@color/black"
+            android:textColor="#fff"
+            android:text="Track Water Intake"/>
 
 
 </FrameLayout>

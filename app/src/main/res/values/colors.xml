@@ -13,4 +13,10 @@
 
     <color name="start_color2">#0cebeb</color>
     <color name="end_color2">#20e3b2</color>
+
+    <color name="colorPrimary">#FF5A25</color>
+    <color name="colorPrimaryDark">#973010</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorButton">#2B7EDC</color>
 </resources>
