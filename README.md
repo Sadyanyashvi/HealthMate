@@ -94,9 +94,7 @@ app/
 
 ---
 
-## 📸 Screenshots
 
-> _Add screenshots here to showcase the UI_
 
 ---
 
@@ -121,4 +119,4 @@ implementation 'com.google.firebase:firebase-firestore-ktx:24.7.0'
 
 ## 📄 License
 
-This project is open source. Feel free to fork, improve, and build on it.
+yashvi
