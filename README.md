@@ -29,35 +29,6 @@ A personal health companion Android app that brings together meal tracking, calo
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Android Studio (Flamingo or later recommended)
-- A Firebase project with **Authentication** and **Firestore** enabled
-- Android device or emulator running API 24+
-
-### Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/HealthMate.git
-   cd HealthMate
-   ```
-
-2. **Connect Firebase**
-   - Go to the [Firebase Console](https://console.firebase.google.com/) and create a project
-   - Add an Android app with package name `com.example.healthmate`
-   - Download `google-services.json` and place it in the `/app` directory
-   - Enable **Email/Password** under Authentication → Sign-in methods
-   - Create a Firestore database in test mode
-
-3. **Open in Android Studio**
-   - Open the project folder in Android Studio
-   - Let Gradle sync complete
-   - Run on your device or emulator
-
----
 
 ## 📂 Project Structure
 
@@ -108,14 +79,7 @@ implementation 'com.google.firebase:firebase-auth-ktx:22.1.0'
 implementation 'com.google.firebase:firebase-firestore-ktx:24.7.0'
 ```
 
----
 
-## 🙌 Acknowledgements
-
-- [Firebase](https://firebase.google.com/) for backend services
-- [Material Design Components](https://m3.material.io/) for the UI toolkit
-
----
 
 ## 📄 License
 
